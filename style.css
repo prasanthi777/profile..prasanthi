@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+    list-style: none;
+   
+}
+body{
+    background: #c4c4c4;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration-color: beige;
+}
+.resume_wrapper{
+    display: flex;
+    width: 800px;
+    height: 100%;
+    margin: 50px auto;
+    background: #fff;
+    padding: 10px;
+}
+.resume_wrapper .resume_left{
+    width: 36%;
+    height: 100%;
+    background: #26252d;
+    padding: 2px;
+}
+.resume_wrapper .resume_left .resume_image {
+    width: 100%;
+}
+.resume_wrapper .resume_left .resume_image img{
+    width: 100%;
+    
+}
+.resume_wrapper .title{
+    color:#fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    border-bottom:#fff;
+    display: inline;
+    /* flex-direction: row; */
+}
+.resume_wrapper .info{
+    color:rgba(216, 216, 213, 0.568);
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+    border-bottom: 2px;
+
+}
+.resume_wrapper .resume_bottom{
+    padding:0px;
+}
+.resume_wrapper .name{
+    color:#fff;
+    font-size: 26px;
+    margin-bottom: 0px;
+
+}
+.resume_wrapper .role{
+    color: rgb(218, 143, 45);
+    font-size: 19px;
+    padding: 0%;
+    margin-bottom: 15px;
+    font-style: itallic;
+}
+.right .title1{
+    font-size: medium;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin: 2px;
+    padding: 0px;
+    color:rgb(43, 226, 137);
+    font-style: oblique;
+
+}
+.right .title1 .info1 p{
+    padding: 16px;
+    margin: 50px;
+    margin-left: 0px;
+    word-spacing: 10px;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: bolder;
+    color: blue;  
+}
+.footer {
+    bottom:0;
+    line-height: 2;
+    width: 80%;
+    text-align: center;
+    position: obsolute;
+    font-size: 20px;
+    color:blueviolet;
+    opacity: 8;
+    font-weight: bold;
+    font-style: normal;
+}
+.copy1{
+    color:#c72c2c;
+    background-color: aliceblue;
+    margin-bottom: 0px;
+    bottom: 0px;
+    margin-top: 0%;
+    padding: 0;
+}
+ .resume_wrapper .info .sk_icon{
+    color: aqua;
+    font-size: 40px;
+    align-items: flex-end;
+    
+}
+@media screen {
+    
+}
+ 
+
+
+
+
+
+
